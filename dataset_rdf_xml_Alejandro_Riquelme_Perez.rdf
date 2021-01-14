@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://www.w3.org/2000/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:ns1="http://genomic-resources.eu/ontology/">
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/ontology/encodedBy">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/core/encodedBy"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/ontology/organism">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/core/organism"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/ontology/cofactor">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/core/cofactor"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/ontology/activity">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/core/activity"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/ontology/length">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/core/length"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/ontology/Tissue_Specificity_Annotation">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/core/Tissue_Specificity_Annotation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/ontology/participates_in">
+    <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/ontology/part_of">
+    <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/ontology/located_in">
+    <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/Protein">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/core/Protein"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/Gene">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/core/Gene"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/PLCB_CAEEL">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/uniprot/G5EBH0"/>
+    <rdf:type rdf:resource="http://genomic-resources.eu/resource/Protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta egl-8</rdfs:label>
+    <ns1:encodedBy>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/egl-8">
+        <ns0:sameAS rdf:resource="https://www.ncbi.nlm.nih.gov/gene/178537"/>
+        <rdf:type rdf:resource="http://genomic-resources.eu/resource/Gene"/>
+        <ns1:located_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome V</ns1:located_in>
+      </rdf:Description>
+    </ns1:encodedBy>
+
+    <ns1:organism rdf:resource="http://purl.uniprot.org/taxonomy/6239"/>
+    <ns1:cofactor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ca+2</ns1:cofactor>
+    <ns1:activity>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/phosphatidylinositol-phospholipase-C">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0004435"/>
+      </rdf:Description>
+    </ns1:activity>
+
+    <ns1:participates_in>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/phosphatidylinositol-mediated-signaling">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0048015"/>
+      </rdf:Description>
+    </ns1:participates_in>
+
+    <ns1:part_of>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/Plasma_membrane">
+        <ns0:sameAs rdf:resource="http://www.geneontology.org/go#GO:0005886"/>
+      </rdf:Description>
+    </ns1:part_of>
+
+    <ns1:length rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1431</ns1:length>
+    <ns1:Tissue_Specificity_Annotation>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/Neurons">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/TAO_0009248"/>
+      </rdf:Description>
+    </ns1:Tissue_Specificity_Annotation>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/PPP6_CAEEL">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/uniprot/Q09496"/>
+    <rdf:type rdf:resource="http://genomic-resources.eu/resource/Protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serine/threonine-protein phosphatase 6 catalytic subunit</rdfs:label>
+    <ns1:encodedBy>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/pph-6">
+        <ns0:sameAS rdf:resource="https://www.ncbi.nlm.nih.gov/gene/183199"/>
+        <rdf:type rdf:resource="http://genomic-resources.eu/resource/Gene"/>
+        <ns1:located_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome III</ns1:located_in>
+      </rdf:Description>
+    </ns1:encodedBy>
+
+    <ns1:organism rdf:resource="http://purl.uniprot.org/taxonomy/6239"/>
+    <ns1:cofactor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mn+2</ns1:cofactor>
+    <ns1:activity>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/phosphoprotein-phosphatase">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0004721"/>
+      </rdf:Description>
+    </ns1:activity>
+
+    <ns1:participates_in>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/cortical-actin-cytoskeleton-organization">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0030866"/>
+      </rdf:Description>
+    </ns1:participates_in>
+
+    <ns1:part_of>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/Cytoskeleton">
+        <ns0:sameAs rdf:resource="http://www.geneontology.org/go#GO:0005856"/>
+      </rdf:Description>
+    </ns1:part_of>
+
+    <ns1:length rdf:datatype="http://www.w3.org/2001/XMLSchema#int">331</ns1:length>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/KPC2_CAEEL">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/uniprot/P90980"/>
+    <rdf:type rdf:resource="http://genomic-resources.eu/resource/Protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein kinase C-like 2</rdfs:label>
+    <ns1:encodedBy>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/pkc-2">
+        <ns0:sameAS rdf:resource="https://www.ncbi.nlm.nih.gov/gene/181166"/>
+        <rdf:type rdf:resource="http://genomic-resources.eu/resource/Gene"/>
+        <ns1:located_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome X</ns1:located_in>
+      </rdf:Description>
+    </ns1:encodedBy>
+
+    <ns1:organism rdf:resource="http://purl.uniprot.org/taxonomy/6239"/>
+    <ns1:cofactor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ca+2</ns1:cofactor>
+    <ns1:activity>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/protein-serine-threonine-kinase">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0004674"/>
+      </rdf:Description>
+    </ns1:activity>
+
+    <ns1:participates_in>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/intracellular-signal-transduction">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0035556"/>
+      </rdf:Description>
+    </ns1:participates_in>
+
+    <ns1:part_of>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/Cytosol">
+        <ns0:sameAs rdf:resource="http://www.geneontology.org/go#GO:0005829"/>
+      </rdf:Description>
+    </ns1:part_of>
+
+    <ns1:length rdf:datatype="http://www.w3.org/2001/XMLSchema#int">682</ns1:length>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/B3GT2_MOUSE">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/uniprot/O54905"/>
+    <rdf:type rdf:resource="http://genomic-resources.eu/resource/Protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-1,3-galactosyltransferase 2</rdfs:label>
+    <ns1:encoded_by>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/B3galt2">
+        <ns0:sameAs rdf:resource="https://www.ncbi.nlm.nih.gov/gene/26878"/>
+        <rdf:type rdf:resource="http://genomic-resources.eu/resource/Gene"/>
+        <ns1:located_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome I</ns1:located_in>
+      </rdf:Description>
+    </ns1:encoded_by>
+
+    <ns1:organism rdf:resource="http://purl.uniprot.org/taxonomy/10090"/>
+    <ns1:cofactor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mn+2</ns1:cofactor>
+    <ns1:activity>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/N-acetyllactosaminide-beta-1-3-N-acetylglucosaminyltransferase">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0008532"/>
+      </rdf:Description>
+    </ns1:activity>
+
+    <ns1:participates_in>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/poly-N-acetyllactosamine-biosynthetic-process">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0030311"/>
+      </rdf:Description>
+    </ns1:participates_in>
+
+    <ns1:part_of>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/Golgi_apparatus">
+        <ns0:sameAs rdf:resource="http://www.geneontology.org/go#GO:0005794"/>
+      </rdf:Description>
+    </ns1:part_of>
+
+    <ns1:length rdf:datatype="http://www.w3.org/2001/XMLSchema#int">422</ns1:length>
+    <ns1:Tissue_Specificity_Annotation>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/Brain">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000955"/>
+      </rdf:Description>
+    </ns1:Tissue_Specificity_Annotation>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/DXO_MOUSE">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/uniprot/O70348"/>
+    <rdf:type rdf:resource="http://genomic-resources.eu/resource/Protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decapping and exoribonuclease protein</rdfs:label>
+    <ns1:encodedBy>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/Dxo">
+        <ns0:sameAs rdf:resource="https://www.ncbi.nlm.nih.gov/gene/112403"/>
+        <rdf:type rdf:resource="http://genomic-resources.eu/resource/Gene"/>
+        <ns1:located_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome XVII</ns1:located_in>
+      </rdf:Description>
+    </ns1:encodedBy>
+
+    <ns1:organism rdf:resource="http://purl.uniprot.org/taxonomy/10090"/>
+    <ns1:cofactor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mg+2</ns1:cofactor>
+    <ns1:activity>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/UDP-Xylosyltransferase">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0008409"/>
+      </rdf:Description>
+    </ns1:activity>
+
+    <ns1:participates_in>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/O-glycan-proccessing">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0000956"/>
+      </rdf:Description>
+    </ns1:participates_in>
+
+    <ns1:part_of>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/Nucleus">
+        <ns0:sameAs rdf:resource="http://www.geneontology.org/go#GO:0005634"/>
+      </rdf:Description>
+    </ns1:part_of>
+
+    <ns1:length rdf:datatype="http://www.w3.org/2001/XMLSchema#int">397</ns1:length>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/XXXLT1_MOUSE">
+    <ns0:sameAs rdf:resource="https://www.uniprot.org/uniprot/Q3U4G3"/>
+    <rdf:type rdf:resource="http://genomic-resources.eu/resource/Protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xyloside xylosyltransferase 1</rdfs:label>
+    <ns1:encoded_by>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/Xxylt1">
+        <ns0:sameAs rdf:resource="https://www.ncbi.nlm.nih.gov/gene/268880"/>
+        <rdf:type rdf:resource="http://genomic-resources.eu/resource/Gene"/>
+        <ns1:located_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome XVI</ns1:located_in>
+      </rdf:Description>
+    </ns1:encoded_by>
+
+    <ns1:organism rdf:resource="http://purl.uniprot.org/taxonomy/10090"/>
+    <ns1:cofactor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mg+2</ns1:cofactor>
+    <ns1:activity>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/5-3-exonuclease">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0035252"/>
+      </rdf:Description>
+    </ns1:activity>
+
+    <ns1:participates_in>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/Nuclear-transcribed-mRNA-catabolic-process">
+        <ns0:sameAs rdf:resource="http://purl.obolibrary.org/obo/GO_0016266"/>
+      </rdf:Description>
+    </ns1:participates_in>
+
+    <ns1:part_of>
+      <rdf:Description rdf:about="http://genomic-resources.eu/resource/Endoplasmatic_reticulum">
+        <ns0:sameAs rdf:resource="http://www.geneontology.org/go#GO:0005783"/>
+      </rdf:Description>
+    </ns1:part_of>
+
+    <ns1:length rdf:datatype="http://www.w3.org/2001/XMLSchema#int">392</ns1:length>
+  </rdf:Description>
+
+</rdf:RDF>
