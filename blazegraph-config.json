@@ -1,0 +1,8 @@
+{
+    "baseConfig": "trifid:config-sparql.json",
+    "sparqlEndpointUrl": "http://155.54.239.24:3044/blazegraph/namespace/Genomic-Resources/sparql",
+    "datasetBaseUrl": "http://genomic-resources.eu",
+    "listener": {
+      "port": 8184
+    }
+}
